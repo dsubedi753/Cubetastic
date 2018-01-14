@@ -32,7 +32,7 @@ public class First : MonoBehaviour
             right(xf);
         }
         //Touchy
-        if (Input.touchCount > 0)
+        /* if (Input.touchCount > 0)
         {
             if(Input.GetTouch(0).position.x<=250)
             {
@@ -59,6 +59,7 @@ public class First : MonoBehaviour
             rb.position = new Vector3(0, 1, 5);
             stop();
         }
+        */
         if (SystemInfo.deviceType== DeviceType.Handheld)
         {
              rb.transform.Translate(Input.acceleration.x, 0, 0);
